@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/fondos-cielo-nocturno-estrellas-luna_791316-88.jpg?w=996);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    padding: 0;
+    margin: 0;
+}
+
+.formulario{
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    width: 350px;
+    height: 440px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.432);
+    background-color: rgba(255, 255, 255, 0.301);
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 30px;
+}
+
+.borde{
+    border: 1px solid #1a1919;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding: 13px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 23px;
+}
+
+#nombre, #correo{
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: 18px;
+}
+
+select{
+    font-size: 18px;
+    margin-bottom: 5px;
+    width: 230px;
+}
+
+button{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+input{
+    font-size: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 480px;
+}
+
+th{
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+
+  </head>
+  <body>
+    <form class="formulario">
+      <h2>Agregar nuevo registro</h2>
+      <article class="borde">
+        <div>
+          <label>Nombre y apellido: </label>
+          <input type="text" id="nombre">
+        </div>
+        
+        <div>
+          <label>Correo electrónico: </label>
+          <input type="email" id="correo">
+        </div>
+
+        <div>
+          <label>Fecha de nacimiento</label>
+          <input type="date" id="fechaNacimiento">
+        </div>
+
+        <div>
+          <button type="submit">Agregar</button>
+        </div>
+      </article>
+    </form>
+
+    <article class="items">
+      <table id="tabla-users">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombres y apellidos</th>
+            <th scope="col">Correo electrónico</th>
+            <th scope="col">Fecha de nacimiento</th>
+            <th scope="col">Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Aquí se añadirán dinámicamente los usuarios -->
+        </tbody>
+      </table>
+    </article>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
